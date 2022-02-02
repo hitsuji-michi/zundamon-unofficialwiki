@@ -78,12 +78,7 @@ ul {
 
 ul.dec {
   list-style-type: disc;
-  display: inline-block;
   padding: 0 0 0 1rem;
-}
-
-li {
-  font-size: 1rem;
 }
 
 li.narrow {
