@@ -70,7 +70,6 @@ summary:hover {
 }
 
 ul {
-  font-size: 1rem;
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -81,6 +80,10 @@ ul.dec {
   list-style-type: disc;
   display: inline-block;
   padding: 0 0 0 1rem;
+}
+
+li {
+  font-size: 1rem;
 }
 
 li.narrow {
