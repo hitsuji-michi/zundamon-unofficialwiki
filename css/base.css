@@ -1,6 +1,8 @@
 body {
   margin: 0;
   color: #080808;
+  font-size: 16px;
+  line-height: 1.8rem;
   font-family: -apple-system,
   BlinkMacSystemFont,
   Roboto,
@@ -15,7 +17,6 @@ body {
 
 main {
   padding: 0.5rem;
-  font-size: 1.25rem;
 }
 
 h2 {
@@ -30,7 +31,7 @@ h3 {
 
 footer {
   padding : 0.5rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: #fff;
   background-color: #86C166;
 }
@@ -77,8 +78,13 @@ ul {
 
 ul.dec {
   display: inline-block;
-  padding: 0.5em 0.5em 0.5em 1.5em;
+  padding: 0 0 0 1rem;
   list-style-type: disc;
+}
+
+li.narrow {
+  margin: .5rem;
+  line-height: 1.2rem;
 }
 
 blockquote {
@@ -86,6 +92,7 @@ blockquote {
 }
 
 blockquote p {
+  font-size: 1.125rem;
   padding: 1rem;
   background: #EFEFEF;
   border-radius: .5rem;
