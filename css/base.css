@@ -70,20 +70,17 @@ summary:hover {
 }
 
 ul {
+  font-size: 1rem;
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-ul, li {
-  text-size-adjust: none;
-}
-
 ul.dec {
+  list-style-type: disc;
   display: inline-block;
   padding: 0 0 0 1rem;
-  list-style-type: disc;
 }
 
 li.narrow {
