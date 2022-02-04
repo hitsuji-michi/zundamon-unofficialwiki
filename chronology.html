@@ -31,7 +31,7 @@
             font-size: 1.125rem;
             line-height: 1.2rem;
             left: 1.2rem;
-            width: calc(100% - 1.2rem);;
+            width: calc(100% - 1.2rem);
             border-bottom: dotted .1rem #91B493;
         }
 
@@ -50,8 +50,17 @@
             margin-top: .5rem;
             margin-bottom: .5rem;
         }
-    </style>
 
+        .shrink {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+
+        .shrink iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -407,10 +416,12 @@
                     </details>
                     <details>
                         <summary>YouTube（番宣　別動画）</summary>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_KUEg2n76UA"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <div class="shrink">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_KUEg2n76UA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </details>
                 </div>
             </dd>
@@ -450,10 +461,12 @@
                     </details>
                     <details>
                         <summary>YouTube（13話）</summary>
+                        <div class="shrink">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_xP28a5MOeE"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
+                        </div>
                     </details>
                 </div>
             </dd>
