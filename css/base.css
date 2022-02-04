@@ -1,8 +1,12 @@
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   color: #080808;
-  font-size: 16px;
-  line-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
   font-family: -apple-system,
   BlinkMacSystemFont,
   Roboto,
@@ -15,17 +19,40 @@ body {
   sans-serif;
 }
 
+b, strong, .bold {
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  Roboto,
+  "Helvetica Neue",
+  HelveticaNeue,
+  "UD Digi Kyokasho NP-B",
+  YuGothic,
+  "Yu Gothic",
+  Meiryo,
+  sans-serif;
+}
+
 main {
   padding: 0.5rem;
 }
 
+h1 {
+  font-size: 22px;
+  line-height: 1.2rem;
+  border-bottom: solid 2px #91B493;
+}
+
 h2 {
-  padding: 0.1rem 1rem;
-  border-left: solid 1rem #91B493;
+  font-size: 20px;
+  line-height: 1.2rem;
+  padding: .1rem .5rem;
+  border-left: solid .75rem #91B493;
   border-bottom: solid 2px #91B493;
 }
 
 h3 {
+  font-size: 18px;
+  line-height: 1.2rem;
   border-bottom: dotted 2px #B5CAA0;
 }
 
@@ -46,22 +73,8 @@ footer a:hover {
   text-decoration:underline;
 }
 
-b, strong, .bold {
-  font-family: -apple-system,
-  BlinkMacSystemFont,
-  Roboto,
-  "Helvetica Neue",
-  HelveticaNeue,
-  "UD Digi Kyokasho NP-B",
-  YuGothic,
-  "Yu Gothic",
-  Meiryo,
-  sans-serif;
-}
-
 summary {
   cursor: pointer;
-  transition: .2s;
 }
 
 summary:hover {
@@ -70,15 +83,15 @@ summary:hover {
 }
 
 ul {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-ul.dec {
   list-style-type: disc;
   padding: 0 0 0 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.nonedot {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 li.narrow {
