@@ -114,3 +114,17 @@ blockquote p {
 figure.quote {
   border-top: solid 1px #B5CAA0;
 }
+
+sup {
+  font-size: smaller;
+}
+
+a.ref {
+  color: #0645ad;
+  text-decoration:none;
+}
+
+a.ref:hover {
+  color: #0645ad;
+  text-decoration:underline;
+}
