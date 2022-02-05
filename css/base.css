@@ -116,6 +116,7 @@ figure.quote {
 }
 
 sup {
+  line-height: 1;
   font-size: smaller;
 }
 
