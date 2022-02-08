@@ -7,12 +7,12 @@ function footer() {
 
     var value = baseUrl + "/zundamon-unofficialwiki/";
     if (getUrl != value) {
-        html += '<a href="./"><li>HOME</li></a>';
+        html += '<a href="../"><li>HOME</li></a>';
     }
 
     var value = baseUrl + "/zundamon-unofficialwiki/chronology/";
     if (getUrl != value) {
-        html += '<a href="./chronology/"><li>年表</li></a>';
+        html += '<a href="../chronology/"><li>年表</li></a>';
     }
 
     html += '<a href="./character-reference/"><li>設定一覧</li></a>';
