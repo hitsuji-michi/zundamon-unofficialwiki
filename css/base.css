@@ -58,6 +58,13 @@ h3 {
   border-bottom: dotted 2px #B5CAA0;
 }
 
+h4 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-block-start: .75rem;
+  margin-block-end: .75rem;
+}
+
 summary {
   cursor: pointer;
 }
@@ -107,12 +114,13 @@ sup {
 
 a.ref {
   color: #0645ad;
-  text-decoration:none;
+  text-decoration: none;
+  word-wrap: break-word;
 }
 
 a.ref:hover {
   color: #0645ad;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 footer {
@@ -146,4 +154,10 @@ footer ul li:hover {
 footer ul a {
   color: #080808;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: solid 2px #86C166;
 }
