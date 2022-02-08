@@ -5,12 +5,12 @@ function footer() {
     var html = "";
     html += '<ul class="nonedot">';
 
-    var value = baseUrl + "/";
+    var value = baseUrl + "/zundamon-unofficialwiki/";
     if (getUrl != value) {
         html += '<a href="./"><li>HOME</li></a>';
     }
 
-    var value = baseUrl + "/chronology/";
+    var value = baseUrl + "/zundamon-unofficialwiki/chronology/";
     if (getUrl != value) {
         html += '<a href="./chronology/"><li>年表</li></a>';
     }
