@@ -5,11 +5,12 @@ function footer() {
     var html = "";
     html += '<ul class="nonedot">';
 
-    if (getUrl != baseUrl) {
+    var value = baseUrl + "/";
+    if (getUrl != value) {
         html += '<a href="./"><li>HOME</li></a>';
     }
 
-    var value = baseUrl + "./chronology/";
+    var value = baseUrl + "/chronology/";
     if (getUrl != value) {
         html += '<a href="./chronology/"><li>年表</li></a>';
     }
