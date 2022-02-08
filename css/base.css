@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  background: #fff;
   margin: 0;
   padding: 0;
 }
@@ -57,23 +56,6 @@ h3 {
   font-size: 1.125rem;
   line-height: 1.2rem;
   border-bottom: dotted 2px #B5CAA0;
-}
-
-footer {
-  padding : 0.5rem;
-  font-size: 1.125rem;
-  color: #fff;
-  background-color: #86C166;
-}
-
-footer a {
-  color: #fff;
-  text-decoration:none;
-}
-
-footer a:hover {
-  color: #fff;
-  text-decoration:underline;
 }
 
 summary {
@@ -131,4 +113,37 @@ a.ref {
 a.ref:hover {
   color: #0645ad;
   text-decoration:underline;
+}
+
+footer {
+  background: #86C166;
+  overflow: hidden;
+}
+
+footer ul {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(6, 1fr);
+  border-radius: .5rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+footer ul li {
+  padding-left: 1.125rem;
+  display: list-item;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+  border-bottom: 1px solid #91B493;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+  background-color: #EFEFEF;
+}
+
+footer ul a {
+  color: #080808;
+  text-decoration: none;
 }

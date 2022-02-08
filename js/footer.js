@@ -1,12 +1,12 @@
 function footer(){
     var html = "";
     html += '<ul class="nonedot">';
-    html += '<li><a href="./">HOME</a></li>';
-    html += '<li><a href="./chronology/">年表</a></li>';
-    html += '<li><a href="./character-reference/">設定一覧</a></li>';
-    html += '<li><a href="./quote-inove/">Web小説（アイノべ）引用セリフ</a></li>';
-    html += '<li><a href="./voice-list/">追加ボイスfile名一覧</a></li>';
-    html += '<li><a href="./link/">外部リンク一覧</a></li>';
+    html += '<a href="./"><li>HOME</li></a>';
+    html += '<a href="./chronology/"><li>年表</li></a>';
+    html += '<a href="./character-reference/"><li>設定一覧</li></a>';
+    html += '<a href="./quote-inove/"><li>Web小説引用セリフ</li></a>';
+    html += '<a href="./voice-list/"><li>追加ボイスfile名一覧</li></a>';
+    html += '<a href="./link/"><li>外部リンク一覧</li></a>';
     html += '</ul>';
     document.write(html);
 }
