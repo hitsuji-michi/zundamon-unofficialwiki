@@ -1,5 +1,5 @@
 function footer() {
-    var getUrl = location.href;
+    var getUrl = window.location.href;
     var baseUrl = window.location.origin;
 
     var html = "";
