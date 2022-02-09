@@ -101,7 +101,34 @@
                 </td>
             </tr>
         </table>
-        <script type="text/javascript">releasedate()</script>
+        <script type="text/javascript">
+            const current = new Date(document.lastModified);
+            var year = current.getFullYear();
+            var month = current.getMonth() + 1;
+            var date = current.getDate();
+            var hours = current.getHours();
+            var minute = current.getMinutes();
+
+            if (month < 10) { month = "0" + month; }
+            if (date < 10) { date = "0" + date; }
+            if (hours < 10) { hours = "0" + hours; }
+            if (minute < 10) { minute = "0" + minute; }
+
+            var time = '<p class="date">';
+            time += '更新日時：';
+            time += year;
+            time += '年';
+            time += month;
+            time += '月';
+            time += date;
+            time += ' ';
+            time += hours;
+            time += ':';
+            time += minute;
+            time += '</p>';
+
+            document.write(time);
+        </script>
     </main>
     <footer>
         <script type="text/javascript">footer();</script>
