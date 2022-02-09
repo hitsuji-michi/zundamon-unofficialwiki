@@ -65,7 +65,7 @@ function releasedate() {
     if (minute < 10) { minute = "0" + minute; }
 
     var time = '<p class="date">';
-    time += '更新日：';
+    time += '更新日時：';
     time += year;
     time += '年';
     time += month;
