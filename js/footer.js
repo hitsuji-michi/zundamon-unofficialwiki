@@ -14,35 +14,35 @@ function footer() {
     if (getUrl != value) {
         html += '<a href="';
         html += baseUrl;
-        html += '/chronology/"><li>年表</li></a>';
+        html += '/zundamon-unofficialwiki/chronology/"><li>年表</li></a>';
     }
 
     var value = baseUrl + "/zundamon-unofficialwiki/character-reference/";
     if (getUrl != value) {
         html += '<a href="';
         html += baseUrl;
-        html += '/character-reference/"><li>設定一覧</li></a>';
+        html += '/zundamon-unofficialwiki/character-reference/"><li>設定一覧</li></a>';
     }
 
     var value = baseUrl + "/zundamon-unofficialwiki/quote-inove/";
     if (getUrl != value) {
         html += '<a href="';
         html += baseUrl;
-        html += './quote-inove/"><li>Web小説引用セリフ</li></a>';
+        html += '/zundamon-unofficialwiki/quote-inove/"><li>Web小説引用セリフ</li></a>';
     }
 
     var value = baseUrl + "/zundamon-unofficialwiki/voice-list/";
     if (getUrl != value) {
         html += '<a href="';
         html += baseUrl;
-        html += '/voice-list/"><li>追加ボイスfile名一覧</li></a>';
+        html += '/zundamon-unofficialwiki/voice-list/"><li>追加ボイスfile名一覧</li></a>';
     }
 
     var value = baseUrl + "/zundamon-unofficialwiki/voice-list/";
     if (getUrl != value) {
         html += '<a href="';
         html += baseUrl;
-        html += '/link/"><li>外部リンク一覧</li></a>';
+        html += '/zundamon-unofficialwiki/link/"><li>外部リンク一覧</li></a>';
     }
 
     html += '</ul>';
