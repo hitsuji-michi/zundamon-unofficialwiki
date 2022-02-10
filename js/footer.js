@@ -32,6 +32,13 @@ function footer() {
         html += '"><li>Web小説引用セリフ</li></a>';
     }
 
+    var value = baseUrl + "/zundamon-unofficialwiki/zunda-horizon/";
+    if (getUrl != value) {
+        html += '<a href="';
+        html += value;
+        html += '"><li>ずんホラ出演シーン</li></a>';
+    }
+
     var value = baseUrl + "/zundamon-unofficialwiki/voice-list/";
     if (getUrl != value) {
         html += '<a href="';
